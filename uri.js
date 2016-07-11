@@ -1,4 +1,4 @@
-var c = require('rho-contracts'),
+var c = require('rho-contracts-fork'),
     _ = require('underscore');
 
 var isUri = require('valid-url').isUri;

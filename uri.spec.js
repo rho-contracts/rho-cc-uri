@@ -1,6 +1,6 @@
 var uri = require('./uri');
 
-var c = require('rho-contracts');
+var c = require('rho-contracts-fork');
 
 var should = require('should');
 
