@@ -9,11 +9,18 @@ Check URIs with [rho-contracts][].
 Usage
 -----
 
+You must use the Body Labs package, `rho-contracts-fork`:
+```js
+  "dependencies": {
+    "rho-contracts-fork": "^1.3.0"
+  }
+```
+
 ```js
 
 var cc = {};
 
-cc.uri = require('rho-cc-s3-uri');
+cc.uri = require('rho-cc-uri');
 
 // Does not throw.
 cc.uri.check('https://foo/bar');
@@ -27,7 +34,7 @@ Installation
 ------------
 
 ```sh
-npm install rho-contracts rho-cc-uri
+npm install rho-contracts-fork rho-cc-uri
 ```
 
 
